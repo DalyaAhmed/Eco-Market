@@ -16,16 +16,16 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
           }
         },
         "quantity_selector": {
@@ -40,8 +40,18 @@
             "show_gift_card_recipient": true
           }
         },
+        "collapsible_tab_c36Eg4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<h4>Polyester<\/h4><p>Polyester och andra syntetiska material fäller mikroplaster när de tvättas, så vi rekommenderar att man använder en tvättpåse för att skydda alla tyger och plagg från att rivas upp eller sträckas ut i tvättmaskinen. Det kommer också att begränsa mikrofiberläckaget under tvättprocessen, vilket hindrar mikroplaster från att nå vårt vattensystem.<\/p>",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -55,20 +65,21 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
         "variant_picker",
+        "price",
         "quantity_selector",
         "buy_buttons",
+        "collapsible_tab_c36Eg4",
         "description",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
