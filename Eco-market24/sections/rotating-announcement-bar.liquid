@@ -1,0 +1,49 @@
+{% schema %}
+{
+  "name": "Section name",
+  "settings": []
+}
+{% endschema %}
+
+<div id="rotating-announcement-bar" class="rotating-announcement-bar">
+  {% for announcement in section.settings.announcements %}
+    <div class="announcement" style="background-color: {{ announcement.background_color }}">
+      <p>{{ announcement.text }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .rotating-announcement-bar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+  }
+
+  .announcement {
+      display: none;
+      padding: 10px;
+      color: white;
+  }
+</style>
+
+<script>
+  var announcements = document.querySelectorAll('.announcement');
+  var currentIndex = 0;
+  var timeout;
+
+  function rotateAnnouncements() {
+      announcements.forEach(function(announcement) {
+          announcement.style.display = 'none';
+      });
+
+      currentIndex = (currentIndex + 1) % announcements.length;
+      announcements[currentIndex].style.display = 'block';
+
+      clearTimeout(timeout);
+      timeout = setTimeout(rotateAnnouncements, 5000); // Change announcement every 5 seconds
+  }
+
+  rotateAnnouncements();
+</script>

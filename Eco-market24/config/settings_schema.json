@@ -9,7 +9,6 @@
   },
   {
     "name": "t:settings_schema.logo.name",
-    
     "settings": [
       {
         "type": "image_picker",

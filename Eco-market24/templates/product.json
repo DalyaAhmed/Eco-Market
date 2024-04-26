@@ -99,10 +99,29 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "video_QJanj3": {
+      "type": "video",
+      "custom_css": [
+        ".video-section {margin-left: 52em;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/youtu.be\/wSsQUyImsRQ",
+        "cover_image": "shopify:\/\/shop_images\/bbq-sauce-roasted-garlic-335g-santa-maria-1280px_jpg.webp",
+        "description": "hi",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "video_QJanj3"
   ]
 }
