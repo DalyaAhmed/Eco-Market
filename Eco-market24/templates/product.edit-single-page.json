@@ -42,17 +42,7 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
-          }
-        },
-        "collapsible_tab_pgL43z": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "icon": "none",
-            "content": "<p>Kubansk\/fritidskrage – En krage i ett stycke med dubbla klackar, som kan stängas eller bäras öppen. Den här kragen syns ofta på avslappnade skjortor och loungeskjortor.<\/p>",
-            "page": ""
           }
         },
         "share": {
@@ -70,7 +60,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible_tab_pgL43z",
         "share"
       ],
       "settings": {

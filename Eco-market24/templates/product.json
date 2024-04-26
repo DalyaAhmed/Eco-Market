@@ -16,16 +16,16 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "quantity_selector": {
@@ -40,19 +40,13 @@
             "show_gift_card_recipient": true
           }
         },
-        "collapsible_tab_c36Eg4": {
+        "collapsible_tab_B4UEHX": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Description",
+            "heading": "Describtion",
             "icon": "none",
-            "content": "<h4>Polyester<\/h4><p>Polyester och andra syntetiska material fäller mikroplaster när de tvättas, så vi rekommenderar att man använder en tvättpåse för att skydda alla tyger och plagg från att rivas upp eller sträckas ut i tvättmaskinen. Det kommer också att begränsa mikrofiberläckaget under tvättprocessen, vilket hindrar mikroplaster från att nå vårt vattensystem.<\/p>",
+            "content": "<p>Floppy hat. PVC flowers, iridescent and glitter. Inside sweatband. Striped woven label.<\/p>",
             "page": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
           }
         },
         "share": {
@@ -65,12 +59,11 @@
       "block_order": [
         "vendor",
         "title",
-        "variant_picker",
         "price",
+        "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "collapsible_tab_c36Eg4",
-        "description",
+        "collapsible_tab_B4UEHX",
         "share"
       ],
       "settings": {
@@ -79,14 +72,14 @@
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "enable_video_looping": true,
+        "padding_top": 72,
+        "padding_bottom": 60
       }
     },
     "related-products": {
