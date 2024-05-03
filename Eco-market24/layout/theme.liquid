@@ -3,6 +3,14 @@
   {% section 'rotating-announcement-bar' %}
 
   <head>
+    <ul>
+      {% for link in linklists.categories.links %}
+        <li>
+          {{ link | json }}
+        </li>
+      {% endfor %}
+    </ul>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -282,8 +290,6 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-     <link href="{{ 'app.css' | asset_url }}" rel="stylesheet" type="text/css" media="all">
-    <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
