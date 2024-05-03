@@ -8,14 +8,14 @@
         "announcement_3cWQep": {
           "type": "announcement",
           "settings": {
-            "text": "hi",
+            "text": "Fri leverance vid bestälning minst: 1000kr",
             "link": ""
           }
         },
         "announcement_qpnyMA": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Leverancestid 1-4 arbetadagar",
             "link": ""
           }
         }
@@ -25,7 +25,7 @@
         "announcement_qpnyMA"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "show_line_separator": true,
         "show_social": true,
         "auto_rotate": true,
