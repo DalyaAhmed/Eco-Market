@@ -342,6 +342,15 @@
     <li><a href="{{ link.url }}">{{ link.title }}</a></li>
   {% endfor %}
 </ul>
+
+    <ul>
+  {% for link in linklists.categories.links %}
+    <li>
+      {{ link | json }}
+    </li>
+  {% endfor %}
+</ul>
+
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 

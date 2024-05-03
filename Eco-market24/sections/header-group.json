@@ -2,12 +2,44 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_c3p8LX": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_3cWQep": {
+          "type": "announcement",
+          "settings": {
+            "text": "hi",
+            "link": ""
+          }
+        },
+        "announcement_qpnyMA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_3cWQep",
+        "announcement_qpnyMA"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "logo_position": "top-center",
+        "menu": "catagories",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
@@ -22,6 +54,7 @@
     }
   },
   "order": [
+    "announcement_bar_c3p8LX",
     "header"
   ]
 }
