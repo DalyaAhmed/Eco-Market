@@ -60,7 +60,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Leveransinformation",
-            "icon": "check_mark",
+            "icon": "none",
             "content": "<p><strong>Fraktkostnader och alternativ för EU-länder:<\/strong><\/p><ul><li>Snabb Leverans: 229,00 SEK<\/li><li>Gratis Frakt: vid beställningar på 1 000,00 SEK och uppåt<\/li><li>Standard Frakt: 79,00 SEK<\/li><\/ul><p><strong>Fraktkostnader och alternativ för Sverige:<\/strong><\/p><ul><li>Snabb Leverans: 129,00 SEK<\/li><li>Gratis Frakt: vid beställningar på 500,00 SEK och uppåt<\/li><li>Standard Frakt: 49,00 SEK<\/li><\/ul><p><strong>Spårningsinformation:<\/strong><\/p><ul><li>När din beställning har skickats kommer du att få spårningsinformation via e-post. Du kan spåra ditt paket med den medföljande spårningsnumret på vår webbplats.<\/li><\/ul><p><strong>Leveranspartners:<\/strong><\/p><ul><li>Vi samarbetar med pålitliga kurirer för att säkerställa att dina beställningar levereras i tid.<\/li><\/ul><p><strong>Leveransbegränsningar:<\/strong><\/p><ul><li>Observera att leveranstiderna kan variera för avlägsna eller lantliga områden. Vi uppskattar ditt tålamod och förståelse<\/li><\/ul>",
             "page": ""
           }
