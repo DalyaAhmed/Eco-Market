@@ -34,10 +34,10 @@
         "link_list_KyWzwk"
       ],
       "custom_css": [
-        ".footer {background-color: #4caf50; }"
+        ".footer {background-color: #4caf50;}"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
         "newsletter_enable": true,
         "newsletter_heading": "Få Exklusiva Erbjudanden & Insiderinformation!",
         "enable_follow_on_shop": false,
