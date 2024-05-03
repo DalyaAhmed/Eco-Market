@@ -4,14 +4,46 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_rik3EJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Green_Organic_Illustrative_Zero_Waste_Recycle_logo_1.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "link_list_C99xtg": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Vårt bolag",
+            "menu": "footer"
+          }
+        },
+        "link_list_KyWzwk": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shoppa Vår Butik",
+            "menu": "footer-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_rik3EJ",
+        "link_list_C99xtg",
+        "link_list_KyWzwk"
+      ],
+      "custom_css": [
+        ".footer {background-color: #4caf50; }"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "newsletter_heading": "Få Exklusiva Erbjudanden & Insiderinformation!",
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
