@@ -1,3 +1,6 @@
+sticky-header .header__heading-logo {
+  border-radius: 5px;
+}
 sticky-header .header__inline-menu ul {
   list-style-type: none;
   margin: 0;
