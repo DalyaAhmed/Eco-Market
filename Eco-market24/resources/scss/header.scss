@@ -1,9 +1,16 @@
 
+.header__icon .icon {
+  height: 2rem;
+  fill: none;
+  vertical-align: middle;
+  color: black;
+}
+
 header{
   .header__icon--account, .header__icon--cart, .icon-search{
-  height: 3rem;
+ 
   width: 3rem;
-  color: black;
+  color: 00000000;
 }
 
 }

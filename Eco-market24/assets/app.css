@@ -1,19 +1,19 @@
-<<<<<<< Updated upstream
-sticky-header .header__heading-logo {
-  border-radius: 5px;
-}
-=======
-header .header__icon--account, header .header__icon--cart, header .icon-search {
-  height: 3rem;
-  width: 3rem;
+.header__icon .icon {
+  height: 2rem;
+  fill: none;
+  vertical-align: middle;
   color: black;
 }
 
+header .header__icon--account, header .header__icon--cart, header .icon-search {
+  width: 3rem;
+  color: 0;
+}
+
 sticky-header .header__heading-logo {
   border-radius: 5px;
 }
 
->>>>>>> Stashed changes
 sticky-header .header__inline-menu ul {
   list-style-type: none;
   margin: 0;
