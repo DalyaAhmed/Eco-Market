@@ -1,49 +1,72 @@
+<<<<<<< Updated upstream
 sticky-header .header__heading-logo {
   border-radius: 5px;
 }
+=======
+header .header__icon--account, header .header__icon--cart, header .icon-search {
+  height: 3rem;
+  width: 3rem;
+  color: black;
+}
+
+sticky-header .header__heading-logo {
+  border-radius: 5px;
+}
+
+>>>>>>> Stashed changes
 sticky-header .header__inline-menu ul {
   list-style-type: none;
   margin: 0;
   display: flex;
 }
+
 sticky-header .header__inline-menu ul li {
   margin-right: 10px;
   align-items: center;
   padding: 1.2rem;
 }
+
 sticky-header .header__inline-menu ul li:last-child {
   margin-right: 0;
 }
+
 sticky-header .header__inline-menu ul li a {
   text-decoration: none;
   color: #333;
   transition: color 0.3s;
 }
+
 sticky-header .header__inline-menu ul li a:hover {
   color: #007bff; /* Change color on hover */
 }
+
 .page-width {
   max-width: unset;
   /* margin: 0 auto; */
 }
+
 .section-header .navigation ul {
   list-style-type: none;
   margin: 0;
   display: flex;
 }
+
 .section-header .navigation ul li {
   margin-right: 10px;
   align-items: center;
   padding: 1.2rem;
 }
+
 .section-header .navigation ul li:last-child {
   margin-right: 0;
 }
+
 .section-header .navigation ul li a {
   text-decoration: none;
   color: #333;
   transition: color 0.3s;
 }
+
 .section-header .navigation ul li a:hover {
   color: #007bff; /* Change color on hover */
 }

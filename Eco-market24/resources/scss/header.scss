@@ -1,8 +1,18 @@
 
+header{
+  .header__icon--account, .header__icon--cart, .icon-search{
+  height: 3rem;
+  width: 3rem;
+  color: black;
+}
+
+}
 sticky-header{
   .header__heading-logo{
     border-radius: 5px;
   }
+
+ 
     .header__inline-menu{
         ul {
             list-style-type: none;
