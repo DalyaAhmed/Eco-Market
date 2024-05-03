@@ -702,3 +702,10 @@
   ]
 }
 {% endschema %}
+  <div class="navigation">
+    <ul>
+      {% for link in linklists.catagories.links %}
+        <li>{{ link.title | link_to: link.url }}</li>
+      {% endfor %}
+    </ul>
+  </div>
