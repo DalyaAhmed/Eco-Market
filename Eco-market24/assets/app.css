@@ -18,6 +18,10 @@ header .list-menu__item {
   color: #000000;
 }
 
+header .disclosure span {
+  font-size: 16px;
+}
+
 sticky-header .header__heading-logo {
   border-radius: 5px;
 }
