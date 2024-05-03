@@ -28,6 +28,13 @@
             "swatch_shape": "square"
           }
         },
+        "popup_w6dXgr": {
+          "type": "popup",
+          "settings": {
+            "text": "{{ block.settings.page.title }}",
+            "page": "storleksguide"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -71,6 +78,7 @@
         "title",
         "price",
         "variant_picker",
+        "popup_w6dXgr",
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_B4UEHX",
