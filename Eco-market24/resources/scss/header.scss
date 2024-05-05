@@ -100,3 +100,10 @@ sticky-header{
         }
       }
 }
+
+
+@media (max-width: 414px) and (min-height: 896px) {
+  .section-header .navigation ul {
+    display: list-item;
+  }
+}

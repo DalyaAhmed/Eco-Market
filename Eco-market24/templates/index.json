@@ -1,5 +1,79 @@
 {
   "sections": {
+    "slideshow_f4mXbM": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_XXhzHz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-akilmazumder-1072824.jpg",
+            "heading": "Welcom to Eco Market",
+            "heading_size": "h2",
+            "subheading": "Your Home of Quality Products",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/bbq-sauce-garlic-santa-maria-335g",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide_YkbYNM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skincare-treatment-and-a-nice-coffee.jpg",
+            "heading": "Skönt",
+            "heading_size": "h1",
+            "subheading": "Upptäck spännande products",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/skonhetsprodukter",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_XXhzHz",
+        "slide_YkbYNM"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "video_HbkChw": {
+      "type": "video",
+      "custom_css": [
+        "video {height: 500px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/3755351-uhd_4096_2160_25fps.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/pexels-akilmazumder-1072824.jpg",
+        "description": "Try our products",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -30,6 +104,8 @@
     }
   },
   "order": [
+    "slideshow_f4mXbM",
+    "video_HbkChw",
     "featured_collection"
   ]
 }
