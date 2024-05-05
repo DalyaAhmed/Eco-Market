@@ -1,5 +1,54 @@
 {
   "sections": {
+    "image_banner_aBwPCX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Fa7tQV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Välkommen till EcoMarket",
+            "heading_size": "h1"
+          }
+        },
+        "text_wgyWfT": {
+          "type": "text",
+          "settings": {
+            "text": "Välkommen till EcoMarket - din destination för hållbara och miljövänliga produkter!",
+            "text_style": "body"
+          }
+        },
+        "buttons_V46dez": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View All Products",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fa7tQV",
+        "text_wgyWfT",
+        "buttons_V46dez"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-mixu-513809-1243015.jpg",
+        "image_2": "shopify:\/\/shop_images\/pexels-elletakesphotos-2069425.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "slideshow_f4mXbM": {
       "type": "slideshow",
       "blocks": {
@@ -104,6 +153,7 @@
     }
   },
   "order": [
+    "image_banner_aBwPCX",
     "slideshow_f4mXbM",
     "video_HbkChw",
     "featured_collection"
