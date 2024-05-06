@@ -6,14 +6,14 @@
         "heading_Fa7tQV": {
           "type": "heading",
           "settings": {
-            "heading": "Välkommen till EcoMarket",
+            "heading": "Explore Our Eco-Friendly Products",
             "heading_size": "h1"
           }
         },
         "text_wgyWfT": {
           "type": "text",
           "settings": {
-            "text": "Välkommen till EcoMarket - din destination för hållbara och miljövänliga produkter!",
+            "text": "This section features a selection of our eco-friendly products, including clothing, accessories, beauty products, household items, and groceries. Explore our sustainable and environmentally-friendly collection below.",
             "text_style": "body"
           }
         },
@@ -49,82 +49,170 @@
         "show_text_below": true
       }
     },
-    "slideshow_f4mXbM": {
-      "type": "slideshow",
+    "rich_text_aX7N73": {
+      "type": "rich-text",
       "blocks": {
-        "slide_XXhzHz": {
-          "type": "slide",
+        "heading_8RV87m": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-akilmazumder-1072824.jpg",
-            "heading": "Welcom to Eco Market",
-            "heading_size": "h2",
-            "subheading": "Your Home of Quality Products",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/products\/bbq-sauce-garlic-santa-maria-335g",
-            "button_style_secondary": false,
-            "box_align": "top-right",
-            "show_text_box": false,
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "left"
+            "heading": "About Us",
+            "heading_size": "h1"
           }
         },
-        "slide_YkbYNM": {
-          "type": "slide",
+        "text_kXQpc8": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skincare-treatment-and-a-nice-coffee.jpg",
-            "heading": "Skönt",
-            "heading_size": "h1",
-            "subheading": "Upptäck spännande products",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/skonhetsprodukter",
+            "text": "<p>Välkommen till EcoMarket - din destination för hållbara och miljövänliga produkter!<\/p>"
+          }
+        },
+        "button_JCdDL9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Läsa Om Oss",
+            "button_link": "shopify:\/\/pages\/about-us",
             "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "center"
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "slide_XXhzHz",
-        "slide_YkbYNM"
+        "heading_8RV87m",
+        "text_kXQpc8",
+        "button_JCdDL9"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "video_HbkChw": {
-      "type": "video",
+    "collection_list_MwyWxX": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_tkhXbm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "klader"
+          }
+        },
+        "featured_collection_UQeKkQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessoarer"
+          }
+        },
+        "featured_collection_zpLcYC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "livsmedel"
+          }
+        },
+        "featured_collection_d6eEMn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skonhetsprodukter"
+          }
+        },
+        "featured_collection_fDCtp3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hushallsartiklar"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_tkhXbm",
+        "featured_collection_UQeKkQ",
+        "featured_collection_zpLcYC",
+        "featured_collection_d6eEMn",
+        "featured_collection_fDCtp3"
+      ],
       "custom_css": [
-        "video {height: 500px;}"
+
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/3755351-uhd_4096_2160_25fps.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/pexels-akilmazumder-1072824.jpg",
-        "description": "Try our products",
-        "full_width": true,
+        "title": "Bläddrar i Alla Samlingar",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
         "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 20
+      }
+    },
+    "featured_product_WBdhzX": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Ng94AV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_KJP9zw": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_d4LkkW": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "quantity_selector_jYbwqg": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_PPBpjp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "rating_3Exz3r": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "text_Ng94AV",
+        "title_KJP9zw",
+        "price_d4LkkW",
+        "quantity_selector_jYbwqg",
+        "buy_buttons_PPBpjp",
+        "rating_3Exz3r"
+      ],
+      "settings": {
+        "product": "gift-cart",
+        "color_scheme": "scheme-3",
+        "secondary_background": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "hover",
+        "hide_variants": true,
+        "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h0",
@@ -140,7 +228,7 @@
         "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
         "image_ratio": "portrait",
-        "image_shape": "default",
+        "image_shape": "parallelogram",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -150,12 +238,123 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_BwQBgn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_w8WRNk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https:\/\/www.boozt.com\/se\/sv\/clinique-for-men\/man\">Clinique<\/a>",
+            "heading_size": "h1"
+          }
+        },
+        "text_qhinAk": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Even Better Makeup Foundation SPF 15 - Foundation<\/h1>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_QqDR7F": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visa Product",
+            "button_link": "shopify:\/\/products\/clinique",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_w8WRNk",
+        "text_qhinAk",
+        "button_QqDR7F"
+      ],
+      "custom_css": [
+        ".animate--ambient {mix-height: 500px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-harper-sunday-2866796.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "slideshow_f4mXbM": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_YkbYNM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skincare-treatment-and-a-nice-coffee.jpg",
+            "heading": "Skönt",
+            "heading_size": "h1",
+            "subheading": "Upptäck spännande products",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/skonhetsprodukter",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bG4DKc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-pixabay-462235.jpg",
+            "heading": "hushållsartiklar",
+            "heading_size": "h2",
+            "subheading": "Upptäcka våra hushållsartiklar produktor",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections\/hushallsartiklar",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_YkbYNM",
+        "slide_bG4DKc"
+      ],
+      "custom_css": [
+        ".animate--fade-in {height: 500px;}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "image_banner_aBwPCX",
-    "slideshow_f4mXbM",
-    "video_HbkChw",
-    "featured_collection"
+    "rich_text_aX7N73",
+    "collection_list_MwyWxX",
+    "featured_product_WBdhzX",
+    "featured_collection",
+    "image_with_text_BwQBgn",
+    "slideshow_f4mXbM"
   ]
 }
