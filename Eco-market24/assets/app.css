@@ -83,6 +83,12 @@ sticky-header .header__inline-menu ul li a:hover {
   color: #007bff; /* Change color on hover */
 }
 
+@media (max-width: 414px) and (min-height: 896px) {
+  .section-header .navigation ul {
+    display: list-item;
+  }
+}
+
 .video-section {
   position: relative;
   width: 100%;
