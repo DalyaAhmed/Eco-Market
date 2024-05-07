@@ -395,6 +395,76 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "testimonial_DBpAwm": {
+      "type": "testimonial",
+      "blocks": {
+        "testimonial_4x9qnE": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_3fp79f": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_m3LEgb": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_hdVBXX": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_4x9qnE",
+        "testimonial_3fp79f",
+        "testimonial_m3LEgb",
+        "testimonial_hdVBXX"
+      ],
+      "settings": {
+        "title": "Some kind words.",
+        "per_row": 4,
+        "video_style": "control_bar",
+        "desktop_display": "scroll",
+        "mobile_display": "scroll",
+        "text_size": 100,
+        "heading_color": "#000000",
+        "text_color": "#121212",
+        "star_color": "#4caf50",
+        "play_button_color": "#ffffff",
+        "border_color": "#121212",
+        "border_width": 1,
+        "border_radius": 0,
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0
+      }
     }
   },
   "order": [
@@ -406,6 +476,7 @@
     "featured_collection",
     "image_with_text_BwQBgn",
     "collage_gy63Eh",
-    "slideshow_f4mXbM"
+    "slideshow_f4mXbM",
+    "testimonial_DBpAwm"
   ]
 }
