@@ -403,6 +403,7 @@
           "type": "testimonial",
           "settings": {
             "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -413,6 +414,7 @@
           "type": "testimonial",
           "settings": {
             "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -423,6 +425,7 @@
           "type": "testimonial",
           "settings": {
             "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -433,6 +436,7 @@
           "type": "testimonial",
           "settings": {
             "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -448,7 +452,7 @@
       ],
       "settings": {
         "title": "Some kind words.",
-        "per_row": 4,
+        "per_row": 3,
         "video_style": "control_bar",
         "desktop_display": "scroll",
         "mobile_display": "scroll",

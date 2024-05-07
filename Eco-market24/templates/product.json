@@ -119,6 +119,75 @@
         "padding_bottom": 28
       }
     },
+    "testimonial_eapJwD": {
+      "type": "testimonial",
+      "blocks": {
+        "testimonial_9KJmDx": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7475338-hd_1920_1080_25fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_X4r7HF": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7475338-hd_1920_1080_25fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_pX3xdh": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/7475338-hd_1920_1080_25fps.mp4",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_JeUiJQ": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_9KJmDx",
+        "testimonial_X4r7HF",
+        "testimonial_pX3xdh",
+        "testimonial_JeUiJQ"
+      ],
+      "settings": {
+        "title": "Some kind words.",
+        "per_row": 3,
+        "video_style": "control_bar",
+        "desktop_display": "scroll",
+        "mobile_display": "scroll",
+        "text_size": 100,
+        "heading_color": "#121212",
+        "text_color": "#121212",
+        "star_color": "#4caf50",
+        "play_button_color": "#ffffff",
+        "border_color": "#4caf50",
+        "border_width": 6,
+        "border_radius": 10,
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0
+      }
+    },
     "video_QJanj3": {
       "type": "video",
       "disabled": true,
@@ -141,6 +210,7 @@
   "order": [
     "main",
     "related-products",
+    "testimonial_eapJwD",
     "video_QJanj3"
   ]
 }
