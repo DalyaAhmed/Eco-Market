@@ -89,17 +89,6 @@ sticky-header .header__inline-menu ul li a:hover {
   }
 }
 
-.video-section {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.video-section .video-section__media video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.section-template--17561951043836__custom_liquid_cr8UH9-padding {
   height: 500px;
-  object-fit: cover;
 }
