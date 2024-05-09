@@ -99,3 +99,30 @@ sticky-header .header__inline-menu ul li a:hover {
   margin-top: 100px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.price--on-sale .price__badge-sale {
+  background-color: green;
+  color: balck;
+}
+
+.card__badge .badge {
+  border-radius: 0;
+  font-size: 13px;
+  background-color: 4CAF50;
+  font-weight: bold;
+  border: none;
+}
+
+.price .price__badge-sale {
+  border-radius: 0;
+  font-size: 13px;
+  background-color: 4CAF50;
+  font-weight: bold;
+  border: none;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.color-scheme-4, .color-scheme-5 {
+  color: black;
+}
