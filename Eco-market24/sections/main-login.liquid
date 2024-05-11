@@ -14,6 +14,11 @@
   }
 {%- endstyle -%}
 
+
+<div class="customer-login-container">
+ <h1 id="login" tabindex="-1">
+    {{ 'customer.login_page.title' | t }}
+  </h1>
 <div class="customer login section-{{ section.id }}-padding">
   <h1 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
@@ -67,9 +72,7 @@
     {%- endform -%}
   </div>
 
-  <h1 id="login" tabindex="-1">
-    {{ 'customer.login_page.title' | t }}
-  </h1>
+ 
   <div>
     {%- if recover_success == true -%}
       <h3 class="form__message" tabindex="-1" autofocus>
@@ -137,7 +140,7 @@
         </a>
       {%- endif -%}
 
-      <button>
+         <button>
         {{ 'customer.login_page.sign_in' | t }}
       </button>
 
@@ -160,6 +163,40 @@
     </div>
   {%- endif -%}
 </div>
+
+<div id="newFields">
+<div class="field">
+    <input class="field__input" type="text" id="custom-question" name="contact[custom-question]" placeholder="Custom Question">
+    <label class="field__label" for="custom-question">Custom Question</label>
+</div>
+    
+<div class="field">
+	<select id="request-type" name="contact[request_type]">
+    <option>Returns</option>
+    <option>Shipping</option>
+    <option>Custom order</option>
+    <option>Other</option>
+  </select>
+</div>
+
+<div class="field checkbox">
+  <label for="contact-time">When is the best time to reach you?</label>
+	<input type="checkbox" name="contact[contact_time_1]" value="morning"><label for="Morning">Morning</label><br>
+	<input type="checkbox" name="contact[contact_time_2]" value="evening"><label for="Evening">Evening</label><br>
+	<input type="checkbox" name="contact[contact_time_3]" value="night"><label for="Night">Night</label>
+</div>
+       
+<div class="field radio-buttons">
+  <label for="contact-method">How do you want us to contact you?</label>
+  <input type="radio" name="contact[contact_method]" value="email" id="email"><label for="email">Email</label><br>
+  <input type="radio" name="contact[contact_method]" value="phone" id="phone"><label for="phone">Phone</label><br>
+  <input type="radio" name="contact[contact_method]" value="text message" id="text"><label for="text">Text message</label>
+</div>
+</div>
+</div>
+   
+
+
 
 {% schema %}
 {

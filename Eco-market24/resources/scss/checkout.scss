@@ -1,0 +1,89 @@
+
+.customer-login-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; // Adjust the gap as needed
+    background-color: #D9D9D9;
+
+    #login{
+        text-align: end;
+    }
+
+    .field {
+        position: relative;
+        width: 100%;
+        display: flex;
+        transition: box-shadow var(--duration-short) ease;
+        margin: 20px;
+        padding: 10px;
+        background-color: #4CAF50;
+    }
+
+    .customer {
+        grid-column: 1 / span 1; // Place the customer div in the first column
+        width: 200rem;
+        padding-top: 1px;
+      }
+      
+    
+}
+      #newFields {
+        grid-column: 2 / span 1; // Place the newFields div in the second column
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+    
+      
+      
+    .customer:not(.account):not(.order) {
+        max-width: unset;
+    }    
+    
+    @media screen and (min-width: 750px) {
+        .customer:not(.account):not(.order) {
+            max-width: unset;
+            /* width: -webkit-fill-available; */
+            /* margin-top: auto; */
+        }
+     
+    }
+    // #customer_login .field select {
+    //     position: initial;
+    //     width: 100%;
+    //     padding: 1.5rem;
+    //     line-height: calc(1 + .5 / var(--font-body-scale));
+    //     letter-spacing: .04rem;
+    //     background-color: rgb(var(--color-background));
+    //     color: rgb(var(--color-foreground));
+    //     font-size: 1.6rem;
+    //     font-family: var(--font-body-family);
+    //     font-style: var(--font-body-style);
+    //     font-weight: var(--font-body-weight);
+    // }
+    
+      
+    // #customer_login .checkbox {
+    
+    //     padding: 10px 10px 10px 17px;
+    //   }
+      
+    
+        
+    // #customer_login .radio-buttons {
+    //     padding: 10px 10px 10px 17px;
+    //     }
+    
+    // .customer .field {
+    //         margin: 2rem 0 0;
+    //         padding: 30px;
+    //     }
+    
+    //     input{
+    //     width: 10px;
+    //     height: 40px;
+    //     margin-top: 30px;
+    //     margin-left: 30px;
+    //     }
+
+  
+  
