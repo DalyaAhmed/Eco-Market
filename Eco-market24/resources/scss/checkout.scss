@@ -47,6 +47,17 @@
         }
      
     }
+
+    @media screen and (min-width: 750px) {
+        .customer-login-container {
+            background-color: #d9d9d9;
+        }
+         .navigation ul {
+            list-style-type: none;
+            margin: 0;
+        }
+    }
+   
     // #customer_login .field select {
     //     position: initial;
     //     width: 100%;
