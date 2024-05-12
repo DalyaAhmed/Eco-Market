@@ -1,17 +1,5 @@
 {
   "sections": {
-    "custom_liquid_cr8UH9": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".color-scheme-1 {min-height: 500px;}"
-      ],
-      "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d3b412a1f924c4b935918f919717445.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/websensepro.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_aX7N73": {
       "type": "rich-text",
       "blocks": {
@@ -52,6 +40,18 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_liquid_cr8UH9": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".color-scheme-1 {min-height: 500px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d3b412a1f924c4b935918f919717445.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/websensepro.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_banner_aBwPCX": {
@@ -124,6 +124,12 @@
             "collection": "livsmedel"
           }
         },
+        "featured_collection_iWh63h": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
         "featured_collection_d6eEMn": {
           "type": "featured_collection",
           "settings": {
@@ -141,6 +147,7 @@
         "featured_collection_tkhXbm",
         "featured_collection_UQeKkQ",
         "featured_collection_zpLcYC",
+        "featured_collection_iWh63h",
         "featured_collection_d6eEMn",
         "featured_collection_fDCtp3"
       ],
@@ -402,7 +409,7 @@
         "testimonial_4x9qnE": {
           "type": "testimonial",
           "settings": {
-            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "html5_video": "shopify:\/\/files\/videos\/8543980-hd_1920_1080_25fps.mp4",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -413,7 +420,7 @@
         "testimonial_3fp79f": {
           "type": "testimonial",
           "settings": {
-            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "html5_video": "shopify:\/\/files\/videos\/3044831-uhd_3840_2160_25fps.mp4",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -424,7 +431,7 @@
         "testimonial_m3LEgb": {
           "type": "testimonial",
           "settings": {
-            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "html5_video": "shopify:\/\/files\/videos\/2786546-uhd_3840_2160_25fps_af8bdd85-3aee-4a83-b94e-23caac987a9a.mp4",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -435,7 +442,7 @@
         "testimonial_hdVBXX": {
           "type": "testimonial",
           "settings": {
-            "html5_video": "shopify:\/\/files\/videos\/7672220-uhd_2160_3840_24fps.mp4",
+            "html5_video": "shopify:\/\/files\/videos\/7475338-hd_1920_1080_25fps.mp4",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -472,8 +479,8 @@
     }
   },
   "order": [
-    "custom_liquid_cr8UH9",
     "rich_text_aX7N73",
+    "custom_liquid_cr8UH9",
     "image_banner_aBwPCX",
     "collection_list_MwyWxX",
     "featured_product_WBdhzX",

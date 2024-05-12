@@ -1,5 +1,22 @@
 {
   "sections": {
+    "custom_tabs_NYdKE6": {
+      "type": "custom-tabs",
+      "blocks": {
+        "tab_RUcJMd": {
+          "type": "tab",
+          "settings": {
+            "heading": "",
+            "tab_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_RUcJMd"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -106,6 +123,39 @@
         "enable_video_looping": true,
         "padding_top": 72,
         "padding_bottom": 60
+      }
+    },
+    "custom_tabs_XiNGVb": {
+      "type": "custom-tabs",
+      "blocks": {
+        "tab_xwTMqi": {
+          "type": "tab",
+          "settings": {
+            "heading": "Describtion",
+            "tab_content": "<p>Floppy hat. PVC flowers, iridescent and glitter. Inside sweatband. Striped woven label.<\/p>"
+          }
+        },
+        "tab_GWpbGt": {
+          "type": "tab",
+          "settings": {
+            "heading": "Size",
+            "tab_content": "<p>Small : 150cm x 200cm<\/p><p>Medium: 190cm x 200cm<\/p><p>Large: 200cm x 200cm<\/p>"
+          }
+        },
+        "tab_8Pxa8j": {
+          "type": "tab",
+          "settings": {
+            "heading": "Leveransinformation",
+            "tab_content": "<h2>Leveransinformation<\/h2><p><strong>Fraktkostnader och alternativ för EU-länder:<\/strong><\/p><ul><li>Snabb Leverans: 229,00 SEK<\/li><li>Gratis Frakt: vid beställningar på 1 000,00 SEK och uppåt<\/li><li>Standard Frakt: 79,00 SEK<\/li><\/ul><p><strong>Fraktkostnader och alternativ för Sverige:<\/strong><\/p><ul><li>Snabb Leverans: 129,00 SEK<\/li><li>Gratis Frakt: vid beställningar på 500,00 SEK och uppåt<\/li><li>Standard Frakt: 49,00 SEK<\/li><\/ul><p><strong>Spårningsinformation:<\/strong><\/p><ul><li>När din beställning har skickats kommer du att få spårningsinformation via e-post. Du kan spåra ditt paket med den medföljande spårningsnumret på vår webbplats.<\/li><\/ul><p><strong>Leveranspartners:<\/strong><\/p><ul><li>Vi samarbetar med pålitliga kurirer för att säkerställa att dina beställningar levereras i tid.<\/li><\/ul><p><strong>Leveransbegränsningar:<\/strong><\/p><ul><li>Observera att leveranstiderna kan variera för avlägsna eller lantliga områden. Vi uppskattar ditt tålamod och förståelse.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_xwTMqi",
+        "tab_GWpbGt",
+        "tab_8Pxa8j"
+      ],
+      "settings": {
       }
     },
     "related-products": {
@@ -216,12 +266,31 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1715551549cf69e19a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_wYkzVE": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_wYkzVE"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "custom_tabs_NYdKE6",
     "main",
+    "custom_tabs_XiNGVb",
     "related-products",
     "testimonial_eapJwD",
-    "video_QJanj3"
+    "video_QJanj3",
+    "1715551549cf69e19a"
   ]
 }
