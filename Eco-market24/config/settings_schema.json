@@ -2,7 +2,6 @@
   {
     "name": "Collection Color swatches",
     "settings": [
-<<<<<<< Updated upstream
       {
         "type": "select",
         "id": "CollectionswatchStyle",
@@ -35,40 +34,6 @@
       }
     ]
   },
-=======
-    {
-    "type": "select",
-    "id": "CollectionswatchStyle",
-    "label": "Swatch style",
-    "options": [
-    {
-    "value": "round",
-    "label": "Round"
-    },
-    {
-    "value": "square",
-    "label": "Square"
-    },
-    {
-    "value": "square-round-corners",
-    "label": "Square round corners"
-    }
-    ],
-    "default": "round"
-    },
-    {
-    "type": "range",
-    "id": "CollectionswatchSize",
-    "min": 20,
-    "max": 120,
-    "step": 2,
-    "unit": "px",
-    "label": "Swatch size",
-    "default": 40
-    }
-    ]
-    },
->>>>>>> Stashed changes
   {
     "name": "theme_info",
     "theme_name": "Dawn",
