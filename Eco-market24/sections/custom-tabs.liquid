@@ -63,6 +63,8 @@
       }
 {% endstylesheet %}
 
+
+{% comment %}
 <ul class="custom--tabs page-width">
   <!-- coded by https://websensepro.com team -->
   {% for block in section.blocks %}
@@ -78,6 +80,7 @@
     {% endif %}
   {% endfor %}
 </ul>
+{% endcomment %}
 
 {% for block in section.blocks %}
   {% if block.type == 'tab' %}
