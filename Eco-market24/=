@@ -1,0 +1,7 @@
+
+> build
+> vite build {%- if product.selected_or_first_available_variant.quantity_price_breaks.size 3
+
+vite v4.5.3 building for production...
+✓ 0 modules transformed.
+✓ built in 10ms
