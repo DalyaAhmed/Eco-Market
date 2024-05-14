@@ -61,10 +61,13 @@ sticky-header .header__inline-menu ul li a:hover {
   list-style-type: none;
   margin: 0;
   display: flex;
+  background-color: #4caf50;
 }
 
 .section-header .navigation ul li {
   margin-right: 10px;
+  padding: 1.2rem;
+  font-size: 2rem;
   align-items: center;
   padding: 1.2rem;
 }
@@ -80,7 +83,7 @@ sticky-header .header__inline-menu ul li a:hover {
 }
 
 .section-header .navigation ul li a:hover {
-  color: #007bff; /* Change color on hover */
+  color: #FFDA00; /* Change color on hover */
 }
 
 @media (max-width: 414px) and (min-height: 896px) {

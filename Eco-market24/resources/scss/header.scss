@@ -75,10 +75,13 @@ sticky-header{
           list-style-type: none;
           margin: 0;
           display: flex;
+          background-color: #4caf50 ;
           
           
           li {
             margin-right: 10px;
+            padding: 1.2rem;
+            font-size: 2rem;
         
       
             &:last-child {
@@ -93,7 +96,7 @@ sticky-header{
               transition: color 0.3s;
       
               &:hover {
-                color: #007bff; /* Change color on hover */
+                color: #FFDA00; /* Change color on hover */
               }
             }
           }

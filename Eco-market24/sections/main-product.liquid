@@ -129,11 +129,13 @@
                   {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
                     <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                     {{ form | payment_terms }}
-
-<div class="line-item-property__field Personalization_field">
-              <label for="name">Name</label>
-              <input type="text" required class="required" id="personalization" name="properties[name]">
-</div>
+                    
+{% If product.title == "Mads Nørgaard" %}
+<p class="line-item-property__field">
+<label for="childsName">Child's Name:</label>
+<input id="childsName" type="text" name="properties[Child's Name]" form="product-form-{{ section.id }}">
+</p>
+{% endif %}
 
                   {%- endform -%}
                 </div>
