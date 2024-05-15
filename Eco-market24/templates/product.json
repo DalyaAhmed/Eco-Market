@@ -17,6 +17,15 @@
       "settings": {
       }
     },
+    "custom_liquid_KxURVR": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -191,10 +200,32 @@
             "link": ""
           }
         },
+        "testimonial_R3hrpC": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/2786546-uhd_3840_2160_25fps_af8bdd85-3aee-4a83-b94e-23caac987a9a.mp4",
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "testimonial_X4r7HF": {
           "type": "testimonial",
           "settings": {
-            "html5_video": "shopify:\/\/files\/videos\/7475338-hd_1920_1080_25fps.mp4",
+            "html5_video": "shopify:\/\/files\/videos\/3374591-hd_1920_1080_24fps.mp4",
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_iX7ChW": {
+          "type": "testimonial",
+          "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/3044831-uhd_3840_2160_25fps.mp4",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -216,6 +247,7 @@
         "testimonial_JeUiJQ": {
           "type": "testimonial",
           "settings": {
+            "html5_video": "shopify:\/\/files\/videos\/8543980-hd_1920_1080_25fps.mp4",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -226,7 +258,9 @@
       },
       "block_order": [
         "testimonial_9KJmDx",
+        "testimonial_R3hrpC",
         "testimonial_X4r7HF",
+        "testimonial_iX7ChW",
         "testimonial_pX3xdh",
         "testimonial_JeUiJQ"
       ],
@@ -273,6 +307,7 @@
       "blocks": {
         "judge_me_reviews_ugc_media_grid_wYkzVE": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         }
@@ -287,6 +322,7 @@
   },
   "order": [
     "custom_tabs_NYdKE6",
+    "custom_liquid_KxURVR",
     "main",
     "custom_tabs_XiNGVb",
     "related-products",
