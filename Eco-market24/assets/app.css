@@ -188,3 +188,48 @@ sticky-header .header__inline-menu ul li a:hover {
     margin: 0;
   }
 }
+
+#carbon-calculator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#carbon-calculator h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#carbon-calculator label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#carbon-calculator input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+#carbon-calculator button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#carbon-calculator button:hover {
+  background-color: #218838;
+}
+
+#carbon-calculator #result {
+  margin-top: 20px;
+  text-align: center;
+}
