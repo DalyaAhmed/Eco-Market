@@ -30,6 +30,7 @@
         },
         "popup_w7T6QA": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "{{ block.settings.page.title }}",
             "page": "storleksguide"

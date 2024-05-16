@@ -60,6 +60,11 @@
             "swatch_shape": "square"
           }
         },
+        "judge_me_reviews_preview_badge_8mddfE": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "popup_w6dXgr": {
           "type": "popup",
           "settings": {
@@ -111,6 +116,7 @@
         "price",
         "custom_liquid_E3NQqR",
         "variant_picker",
+        "judge_me_reviews_preview_badge_8mddfE",
         "popup_w6dXgr",
         "quantity_selector",
         "buy_buttons",
@@ -144,6 +150,13 @@
             "tab_content": "<p>Floppy hat. PVC flowers, iridescent and glitter. Inside sweatband. Striped woven label.<\/p>"
           }
         },
+        "tab_Q6jMPz": {
+          "type": "tab",
+          "settings": {
+            "heading": "",
+            "tab_content": ""
+          }
+        },
         "tab_GWpbGt": {
           "type": "tab",
           "settings": {
@@ -161,6 +174,7 @@
       },
       "block_order": [
         "tab_xwTMqi",
+        "tab_Q6jMPz",
         "tab_GWpbGt",
         "tab_8Pxa8j"
       ],
