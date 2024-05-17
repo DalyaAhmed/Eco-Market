@@ -109,6 +109,7 @@
                     price_class: 'price--large'
                   -%}
                 </div>
+
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
@@ -131,6 +132,13 @@
                     {{ form | payment_terms }}
 
 
+
+{% if product.title == "Mads" %}
+<p class="line-item-property__field">
+<label for="childsName">Child's Name:</label>
+<input id="childsName" type="text" name="properties[Child's Name]" form="product-form-{{ section.id }}">
+</p>
+{% endif %}
 
                   {%- endform -%}
                 </div>

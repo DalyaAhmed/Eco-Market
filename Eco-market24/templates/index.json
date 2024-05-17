@@ -1,5 +1,17 @@
 {
   "sections": {
+    "custom_liquid_cr8UH9": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".color-scheme-1 {min-height: 500px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d3b412a1f924c4b935918f919717445.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/websensepro.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_aX7N73": {
       "type": "rich-text",
       "blocks": {
@@ -20,7 +32,7 @@
           "type": "button",
           "settings": {
             "button_label": "Läsa Om Oss",
-            "button_link": "shopify:\/\/pages\/about-us",
+            "button_link": "shopify:\/\/pages\/who-we-are",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -33,25 +45,16 @@
         "text_kXQpc8",
         "button_JCdDL9"
       ],
+      "custom_css": [
+        ".animate--slide-in {margin-top: 30px; margin-bottom: 20px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_cr8UH9": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".color-scheme-1 {min-height: 500px;}"
-      ],
-      "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d3b412a1f924c4b935918f919717445.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/websensepro.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "full_width": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "image_banner_aBwPCX": {
@@ -124,12 +127,6 @@
             "collection": "livsmedel"
           }
         },
-        "featured_collection_iWh63h": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "featured_collection_d6eEMn": {
           "type": "featured_collection",
           "settings": {
@@ -147,7 +144,6 @@
         "featured_collection_tkhXbm",
         "featured_collection_UQeKkQ",
         "featured_collection_zpLcYC",
-        "featured_collection_iWh63h",
         "featured_collection_d6eEMn",
         "featured_collection_fDCtp3"
       ],
@@ -158,8 +154,8 @@
         "title": "Bläddrar i Alla Samlingar",
         "heading_size": "h1",
         "image_ratio": "portrait",
-        "columns_desktop": 5,
-        "color_scheme": "",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -225,7 +221,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h0",
@@ -239,7 +234,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "image_ratio": "portrait",
         "image_shape": "parallelogram",
         "show_secondary_image": true,
@@ -330,7 +325,6 @@
         "product_ttaaXR",
         "collection_ynHMBL"
       ],
-      "disabled": true,
       "custom_css": [
         ".animate--slide-in {max-height: 500;}"
       ],
@@ -369,7 +363,7 @@
         "slide_bG4DKc": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-pixabay-462235.jpg",
+            "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
             "heading": "hushållsartiklar",
             "heading_size": "h2",
             "subheading": "Upptäcka våra hushållsartiklar produktor",
@@ -390,7 +384,7 @@
         "slide_bG4DKc"
       ],
       "custom_css": [
-        ".animate--fade-in {height: 500px;}"
+        ".animate--fade-in {height: 500px; margin-top: 30px;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -479,8 +473,8 @@
     }
   },
   "order": [
-    "rich_text_aX7N73",
     "custom_liquid_cr8UH9",
+    "rich_text_aX7N73",
     "image_banner_aBwPCX",
     "collection_list_MwyWxX",
     "featured_product_WBdhzX",
