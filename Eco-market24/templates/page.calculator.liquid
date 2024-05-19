@@ -1,29 +1,65 @@
 <div id="carbon-calculator">
-  <h2>Carbon Footprint Calculator</h2>
-  <form id="calculator-form">
-    <label for="transport">Transport (km per week):</label>
-    <input type="number" id="transport" name="transport" min="0" required>
+  <h2>Beräkna ditt koldioxidavtryck</h2>
 
-    <label for="electricity">Electricity (kWh per month):</label>
-    <input type="number" id="electricity" name="electricity" min="0" required>
+  <label for="jeans">Antal jeans:</label>
+  <input type="number" id="jeans" name="jeans">
 
-    <label for="meat-consumption">Meat Consumption (meals per week):</label>
-    <input type="number" id="meat-consumption" name="meat-consumption" min="0" required>
+  <label for="tshirts">Antal t-shirts:</label>
+  <input type="number" id="tshirts" name="tshirts">
 
-    <button type="button" onclick="calculateFootprint()">Calculate</button>
-  </form>
+  <label for="accessories">Antal accessoarer:</label>
+  <input type="number" id="accessories" name="accessories">
+
+  <label for="beauty">Antal skönhetsprodukter:</label>
+  <input type="number" id="beauty" name="beauty">
+
+  <label for="household">Antal hushållsartiklar:</label>
+  <input type="number" id="household" name="household">
+
+  <label for="beef">Livsmedel (kg nötkött):</label>
+  <input type="number" id="beef" name="beef">
+
+  <label for="vegetables">Livsmedel (kg grönsaker):</label>
+  <input type="number" id="vegetables" name="vegetables">
+
+  <button type="button" id="calculate-button">Beräkna</button>
 
   <div id="result"></div>
 </div>
+
 <script>
-  function calculateFootprint() {
-    var transport = document.getElementById('transport').value;
-    var electricity = document.getElementById('electricity').value;
-    var meatConsumption = document.getElementById('meat-consumption').value;
+document.getElementById('calculate-button').addEventListener('click', function() {
+  const jeans = parseFloat(document.getElementById('jeans').value) || 0;
+  const tshirts = parseFloat(document.getElementById('tshirts').value) || 0;
+  const accessories = parseFloat(document.getElementById('accessories').value) || 0;
+  const beauty = parseFloat(document.getElementById('beauty').value) || 0;
+  const household = parseFloat(document.getElementById('household').value) || 0;
+  const beef = parseFloat(document.getElementById('beef').value) || 0;
+  const vegetables = parseFloat(document.getElementById('vegetables').value) || 0;
 
-    // Example calculation (simplified)
-    var footprint = (transport * 0.21) + (electricity * 0.5) + (meatConsumption * 3);
+  const carbonFootprint = calculateCarbonFootprint(jeans, tshirts, accessories, beauty, household, beef, vegetables);
 
-    document.getElementById('result').innerText = 'Your estimated carbon footprint is ' + footprint.toFixed(2) + ' tons of CO2 per year.';
-  }
+  document.getElementById('result').innerText = `Ditt uppskattade koldioxidavtryck är ${carbonFootprint} kg CO2e.`;
+});
+
+function calculateCarbonFootprint(jeans, tshirts, accessories, beauty, household, beef, vegetables) {
+  const jeansEmissionFactor = 33.4; // kg CO2e per pair of jeans
+  const tshirtsEmissionFactor = 2.1; // kg CO2e per t-shirt
+  const accessoriesEmissionFactor = 1.5; // kg CO2e per accessory (example value)
+  const beautyEmissionFactor = 1.7; // kg CO2e per beauty product
+  const householdEmissionFactor = 20.0; // kg CO2e per household item (example value)
+  const beefEmissionFactor = 27.0; // kg CO2e per kg of beef
+  const vegetablesEmissionFactor = 2.5; // kg CO2e per kg of vegetables
+
+  const jeansEmissions = jeans * jeansEmissionFactor;
+  const tshirtsEmissions = tshirts * tshirtsEmissionFactor;
+  const accessoriesEmissions = accessories * accessoriesEmissionFactor;
+  const beautyEmissions = beauty * beautyEmissionFactor;
+  const householdEmissions = household * householdEmissionFactor;
+  const beefEmissions = beef * beefEmissionFactor;
+  const vegetablesEmissions = vegetables * vegetablesEmissionFactor;
+
+  const totalEmissions = jeansEmissions + tshirtsEmissions + accessoriesEmissions + beautyEmissions + householdEmissions + beefEmissions + vegetablesEmissions;
+  return totalEmissions.toFixed(2);
+}
 </script>
