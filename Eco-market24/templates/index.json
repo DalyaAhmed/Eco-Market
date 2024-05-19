@@ -156,11 +156,11 @@
         "image_ratio": "portrait",
         "columns_desktop": 3,
         "color_scheme": "scheme-2",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 24,
-        "padding_bottom": 20
+        "padding_top": 12,
+        "padding_bottom": 40
       }
     },
     "featured_product_WBdhzX": {
@@ -226,11 +226,11 @@
         "heading_size": "h0",
         "description": "",
         "show_description": false,
-        "description_style": "subtitle",
+        "description_style": "body",
         "collection": "klader",
         "products_to_show": 25,
-        "columns_desktop": 4,
-        "full_width": false,
+        "columns_desktop": 5,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
@@ -239,12 +239,18 @@
         "image_shape": "parallelogram",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 36
+      }
+    },
+    "171610189591cd965e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "image_with_text_BwQBgn": {
@@ -479,6 +485,7 @@
     "collection_list_MwyWxX",
     "featured_product_WBdhzX",
     "featured_collection",
+    "171610189591cd965e",
     "image_with_text_BwQBgn",
     "collage_gy63Eh",
     "slideshow_f4mXbM",

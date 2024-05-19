@@ -10,6 +10,15 @@
     }
 }
 
+
+.featured-product:not(.product--no-media)>.product__info-wrapper {
+    padding: 0 7rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width: 750px){
 .section-header .navigation ul li a {
     text-decoration: none;
