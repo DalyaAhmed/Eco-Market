@@ -331,6 +331,7 @@
         "product_ttaaXR",
         "collection_ynHMBL"
       ],
+      "disabled": true,
       "custom_css": [
         ".animate--slide-in {max-height: 500;}"
       ],
