@@ -37,6 +37,9 @@
     "header": {
       "type": "header",
       "settings": {
+        "enable_transparent-header": true,
+        "color-transparent": "",
+        "only-homepage": true,
         "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",

@@ -180,13 +180,13 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#fff",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#fff",
           "button": "#4caf50",
           "button_label": "#ffffff",
           "secondary_button_label": "#000000",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "scheme-2": {

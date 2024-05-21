@@ -6,8 +6,8 @@
         ".color-scheme-1 {min-height: 500px;}"
       ],
       "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d3b412a1f924c4b935918f919717445.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/websensepro.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
-        "color_scheme": "",
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/videos.pexels.com\/video-files\/2840959\/2840959-hd_1920_1080_30fps.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/videos.pexels.com\/video-files\/4842993\/4842993-sd_640_360_30fps.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
+        "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0
       }
