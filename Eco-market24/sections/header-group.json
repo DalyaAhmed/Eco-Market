@@ -38,8 +38,8 @@
       "type": "header",
       "settings": {
         "enable_transparent-header": true,
-        "color-transparent": "",
-        "only-homepage": true,
+        "color-transparent": "black",
+        "only-homepage": false,
         "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
