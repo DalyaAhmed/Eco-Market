@@ -86,11 +86,17 @@
         },
         "collapsible_tab_B4UEHX": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Describtion",
             "icon": "none",
             "content": "<p>Floppy hat. PVC flowers, iridescent and glitter. Inside sweatband. Striped woven label.<\/p>",
             "page": ""
+          }
+        },
+        "description_WUFhRM": {
+          "type": "description",
+          "settings": {
           }
         },
         "share": {
@@ -126,6 +132,7 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_B4UEHX",
+        "description_WUFhRM",
         "share",
         "collapsible_tab_tCwNDq",
         "judge_me_reviews_preview_badge_jrbxrA"
