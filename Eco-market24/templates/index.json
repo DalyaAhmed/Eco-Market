@@ -151,7 +151,7 @@
 
       ],
       "settings": {
-        "title": "Bläddrar i Alla Samlingar",
+        "title": "Browsing All Collections",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -353,9 +353,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/skincare-treatment-and-a-nice-coffee.jpg",
-            "heading": "Skönt",
+            "heading": "Great",
             "heading_size": "h1",
-            "subheading": "Upptäck spännande products",
+            "subheading": "Discover exciting products",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/skonhetsprodukter",
             "button_style_secondary": false,
@@ -371,10 +371,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
-            "heading": "hushållsartiklar",
+            "heading": "household items",
             "heading_size": "h2",
-            "subheading": "Upptäcka våra hushållsartiklar produktor",
-            "button_label": "Button label",
+            "subheading": "Discover our household goods products",
+            "button_label": "Discover more",
             "link": "shopify:\/\/collections\/hushallsartiklar",
             "button_style_secondary": false,
             "box_align": "bottom-right",
