@@ -6,7 +6,7 @@
         ".color-scheme-1 {margin-top: 0px;}"
       ],
       "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.pixabay.com\/video\/2023\/11\/06\/188127-881853351_tiny.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/websensepro.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.pixabay.com\/video\/2023\/11\/06\/188127-881853351_tiny.mp4\"    \n<\/video>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
