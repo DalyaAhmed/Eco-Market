@@ -26,3 +26,14 @@
     transition: color .3s;
 }
 }
+
+@media only screen and (min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px) {
+    .section-header .navigation ul li a {
+        text-decoration: none;
+        color: #555; /* Custom color for iPhone 12 Pro */
+        padding: 10px; /* Custom padding for iPhone 12 Pro */
+        transition: color .3s;
+    }
+}
+
+
