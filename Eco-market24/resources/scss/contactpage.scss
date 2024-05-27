@@ -1,0 +1,67 @@
+// Basic form styling
+form {
+    margin: 20px auto; // Center the form horizontally
+    padding: 20px;
+    border: 5px solid #ccc; // Increase border width to 5px
+    border-radius: 5px;
+  
+    // Input field styling
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin: 5px auto; // Center the input fields horizontally
+      border: none; // Remove default border
+      border-radius: 5px;
+    }
+  
+    // Label styling
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  
+    // Submit button styling
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  
+    // Radio and checkbox styling
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  
+    // Additional styling for radio and checkbox labels
+    .contact-method label,
+    .contact-time label {
+      display: inline;
+      margin-right: 10px;
+    }
+  
+    // Container divs styling
+    .contact-method,
+    .contact-time {
+      margin-top: 10px;
+    }
+  
+    // Optional: Adjust styling for form error messages
+    .form-error {
+      color: red;
+    }
+  }
+  

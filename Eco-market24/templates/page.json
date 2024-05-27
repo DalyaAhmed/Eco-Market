@@ -2,8 +2,11 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".h0{margin-left: 30px;}"
+      ],
       "settings": {
-        "padding_top": 28,
+        "padding_top": 32,
         "padding_bottom": 28
       }
     },
