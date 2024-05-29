@@ -44,6 +44,18 @@
             "custom_liquid": "{% if settings.enable-wishlist %}\n                  <button onclick=\"toggleWishlist()\" class=\"wishlist_button\">\n                    <svg width=\"30px\" height=\"30px\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                      <rect x=\"0\" fill=\"none\" width=\"24\" height=\"24\"\/>\n\n                      <g>\n\n                      <path d=\"M16.5 4.5c2.206 0 4 1.794 4 4 0 4.67-5.543 8.94-8.5 11.023C9.043 17.44 3.5 13.17 3.5 8.5c0-2.206 1.794-4 4-4 1.298 0 2.522.638 3.273 1.706L12 7.953l1.227-1.746c.75-1.07 1.975-1.707 3.273-1.707m0-1.5c-1.862 0-3.505.928-4.5 2.344C11.005 3.928 9.362 3 7.5 3 4.462 3 2 5.462 2 8.5c0 5.72 6.5 10.438 10 12.85 3.5-2.412 10-7.13 10-12.85C22 5.462 19.538 3 16.5 3z\"\/>\n\n                      <\/g>\n                    <\/svg>\n                  <\/button>\n                {% endif %}"
           }
         },
+        "custom_liquid_ypgGww": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"your-picture\">your name<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"your-picture\" name=\"properties[your picture]\" required maxlength=\"12\">\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    document.querySelector('#your-picture').addEventListener('input',(e)=>{\n    if(!document.querySelector('label[for=\"your-picture\"] span')){\n        const span = document.createElement(\"span\");\n        span.style.marginLeft = '10px'\n        document.querySelector('label[for=\"your-picture\"]').appendChild(span)\n    }\n    document.querySelector('label[for=\"your-picture\"] span').style.display  = 'inline'\n    document.querySelector('label[for=\"your-picture\"] span').textContent = e.target.value.length + ' | ' + 12\n    if(e.target.value.length==0){\n        document.querySelector('label[for=\"your-picture\"] span').style.display  = 'none'\n    }})\n    <\/script>\n<\/div>"
+          }
+        },
+        "custom_liquid_dmiP3N": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<label class=\"form__label custom\" for=\"your-picture\">your picture<\/label>\n<div class=\"field custom\">\n    <input type=\"file\" form=\"{{ 'product-form-' | append: section.id }}\" name=\"properties[your picture]\" required>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    <\/script>\n<\/div>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -63,22 +75,22 @@
             "page": "storleksguide"
           }
         },
+        "custom_liquid_VAnY6h": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-form__input\">\n<label class=\"form__label\">your picture<\/label>\n<input type=\"file\" form=\"{{ 'product-form-' | append: section.id }}\" name=\"properties[your picture]\" required>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    <\/script>\n<\/div>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "custom_liquid_ypgGww": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": false
           }
         },
         "collapsible_tab_B4UEHX": {
@@ -111,11 +123,6 @@
             "content": "<p><strong>Fraktkostnader och alternativ för EU-länder:<\/strong><\/p><ul><li>Snabb Leverans: 229,00 SEK<\/li><li>Gratis Frakt: vid beställningar på 1 000,00 SEK och uppåt<\/li><li>Standard Frakt: 79,00 SEK<\/li><\/ul><p><strong>Fraktkostnader och alternativ för Sverige:<\/strong><\/p><ul><li>Snabb Leverans: 129,00 SEK<\/li><li>Gratis Frakt: vid beställningar på 500,00 SEK och uppåt<\/li><li>Standard Frakt: 49,00 SEK<\/li><\/ul><p><strong>Spårningsinformation:<\/strong><\/p><ul><li>När din beställning har skickats kommer du att få spårningsinformation via e-post. Du kan spåra ditt paket med den medföljande spårningsnumret på vår webbplats.<\/li><\/ul><p><strong>Leveranspartners:<\/strong><\/p><ul><li>Vi samarbetar med pålitliga kurirer för att säkerställa att dina beställningar levereras i tid.<\/li><\/ul><p><strong>Leveransbegränsningar:<\/strong><\/p><ul><li>Observera att leveranstiderna kan variera för avlägsna eller lantliga områden. Vi uppskattar ditt tålamod och förståelse.<\/li><\/ul>",
             "page": ""
           }
-        },
-        "judge_me_reviews_preview_badge_jrbxrA": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -123,17 +130,18 @@
         "title",
         "price",
         "custom_liquid_E3NQqR",
+        "custom_liquid_ypgGww",
+        "custom_liquid_dmiP3N",
         "variant_picker",
         "judge_me_reviews_preview_badge_8mddfE",
         "popup_w6dXgr",
+        "custom_liquid_VAnY6h",
         "quantity_selector",
-        "custom_liquid_ypgGww",
         "buy_buttons",
         "collapsible_tab_B4UEHX",
         "description_WUFhRM",
         "share",
-        "collapsible_tab_tCwNDq",
-        "judge_me_reviews_preview_badge_jrbxrA"
+        "collapsible_tab_tCwNDq"
       ],
       "settings": {
         "enable_sticky_info": true,

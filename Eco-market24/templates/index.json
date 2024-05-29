@@ -2,9 +2,6 @@
   "sections": {
     "custom_liquid_cr8UH9": {
       "type": "custom-liquid",
-      "custom_css": [
-        ".color-scheme-1 {margin-top: 0px;}"
-      ],
       "settings": {
         "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.pixabay.com\/video\/2023\/11\/06\/188127-881853351_tiny.mp4\"    \n<\/video>",
         "color_scheme": "",
@@ -15,7 +12,7 @@
     "custom_liquid_zEqRX7": {
       "type": "custom-liquid",
       "custom_css": [
-        "h1 {margin-left: 40px; text-align: center;}",
+        "h1 {margin-left: 40px; text-align: center; margin-right: 40px;}",
         ".icons {display: flex; justify-content: center; gap: 10px;}",
         "svg {width: 50px; height: 100px; fill: #007bff;}"
       ],

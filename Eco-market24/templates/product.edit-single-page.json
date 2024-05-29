@@ -30,10 +30,21 @@
         },
         "popup_w7T6QA": {
           "type": "popup",
-          "disabled": true,
           "settings": {
             "text": "{{ block.settings.page.title }}",
             "page": "storleksguide"
+          }
+        },
+        "custom_liquid_rgFLiy": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"your-label\">Your label<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"your-label\" name=\"properties[Your label]\" maxlength=\"12\">\n    <script>\n        document.querySelector('#your-label').addEventListener('input',(e)=>{\n    if(!document.querySelector('label[for=\"your-label\"] span')){\n        const span = document.createElement(\"span\");\n        span.style.marginLeft = '10px'\n        document.querySelector('label[for=\"your-label\"]').appendChild(span)\n    }\n    document.querySelector('label[for=\"your-label\"] span').style.display  = 'inline'\n    document.querySelector('label[for=\"your-label\"] span').textContent = e.target.value.length + ' | ' + 12\n    if(e.target.value.length==0){\n        document.querySelector('label[for=\"your-label\"] span').style.display  = 'none'\n    }})\n    <\/script>\n<\/div>"
+          }
+        },
+        "custom_liquid_M4Meyj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem;font-family: var(--font-body-family);color: rgba(var(--color-foreground),.75);font-size: 1.2rem;}<\/style>  \n<label class=\"form__label custom\">Date<\/label>\n<div class=\"field custom\">\n<input class=\"field__input\" type=\"date\" form=\"{{ 'product-form-' | append: section.id }}\"  \nname=\"properties[Date]\" required>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    <\/script>\n<\/div>"
           }
         },
         "quantity_selector": {
@@ -44,8 +55,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "description_8grNet": {
@@ -85,6 +96,8 @@
         "price",
         "variant_picker",
         "popup_w7T6QA",
+        "custom_liquid_rgFLiy",
+        "custom_liquid_M4Meyj",
         "quantity_selector",
         "buy_buttons",
         "description_8grNet",
